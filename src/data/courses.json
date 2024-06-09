@@ -99,6 +99,16 @@
             "instructor": "Ethan Moore",
             "isFeatured": true,
             "image": "/courses/blues.jpg"
+        },
+        {
+            "id": 11,
+            "title": "Ukulele Basics",
+            "slug": "ukulele-basics",
+            "description": "Learn the basics of playing the ukulele with this beginner-friendly course.",
+            "price": 79.99,
+            "instructor": "Sarah Johnson",
+            "isFeatured": true,
+            "image": "/courses/ukulele.jpg"
         }
     ]
 }
