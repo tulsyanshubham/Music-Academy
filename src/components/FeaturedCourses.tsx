@@ -3,6 +3,7 @@ import React from 'react'
 import {courseData} from '@/data/courses'
 import Link from 'next/link'
 import { BackgroundGradient } from './ui/background-gradient'
+import { StaticImageData } from 'next/image';
 
 interface Course {
     id: number,
@@ -12,7 +13,7 @@ interface Course {
     price: number,
     instructor: string,
     isFeatured: boolean,
-    image?: string
+    image?: StaticImageData
 }
 
 export default function FeaturedCourses() {
