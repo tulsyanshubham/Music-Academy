@@ -3,7 +3,7 @@
 import React, { FormEvent, useState } from 'react';
 import { BackgroundBeams } from '@/components/ui/background-beams';
 
-export default function contactus() {
+export default function Contactus() {
 
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
